@@ -5,7 +5,7 @@ actionText: 开始阅读
 actionLink: /docs/guide/
 features:
   - title: 每日工作记录
-    details: 每天工作这么辛苦如果什么都不记、那就太可惜了。
+    details: 每天工作这么辛苦如果什么都不记、那就太可惜了
   - title: JS
     details: 吃饭的东西、每天都要背八股
   - title: 前端进阶
