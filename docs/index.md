@@ -2,7 +2,7 @@
 home: true
 # heroImage: /logo.svg
 actionText: 开始阅读
-actionLink: /docs/guide/
+actionLink: /docs/life/
 features:
   - title: 每日工作记录
     details: 每天工作这么辛苦如果什么都不记、那就太可惜了
