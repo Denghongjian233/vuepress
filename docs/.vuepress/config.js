@@ -35,6 +35,10 @@ module.exports = {
               title:'3-03',
               path:'/docs/life/3-03'
             },
+             {
+              title:'3-06',
+              path:'/docs/life/3-06'
+            },
           ]
         }
       ],
