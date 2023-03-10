@@ -24,39 +24,48 @@ module.exports = {
     sidebar: {
       '/docs/life/': [
         {
-          title:'日志',
+          title: '日志',
           collapsable: false,
-          children:[
+          children: [
             {
-              title:'3-02',
-              path:'/docs/life/3-02'
+              title: '3-02',
+              path: '/docs/life/3-02'
             },
             {
-              title:'3-03',
-              path:'/docs/life/3-03'
-            },
-             {
-              title:'3-06',
-              path:'/docs/life/3-06'
+              title: '3-03',
+              path: '/docs/life/3-03'
             },
             {
-              title:'3-07',
-              path:'/docs/life/3-07'
-            }, {
-              title:'3-08',
-              path:'/docs/life/3-08'
+              title: '3-06',
+              path: '/docs/life/3-06'
+            },
+            {
+              title: '3-07',
+              path: '/docs/life/3-07'
+            },
+            {
+              title: '3-08',
+              path: '/docs/life/3-08'
+            },
+            {
+              title: '3-09',
+              path: '/docs/life/3-09'
+            },
+            {
+              title: '3-10',
+              path: '/docs/life/3-10'
             },
           ]
         }
       ],
       '/docs/jinjie/': [
         {
-          title:'前端进阶知识',
+          title: '前端进阶知识',
           collapsable: false,
-          children:[
+          children: [
             {
-              title:'PMP',
-              path:'/docs/jinjie/PMP'
+              title: 'PMP',
+              path: '/docs/jinjie/PMP'
             },
             // {
             //   title:'3-03',
@@ -67,21 +76,21 @@ module.exports = {
       ],
       '/docs/JS/': [
         {
-          title:'扎实的JS基础是每个前端吃饭的东西',
+          title: '扎实的JS基础是每个前端吃饭的东西',
           collapsable: false,
-          children:[
+          children: [
             {
-              title:'数据类型',
-              path:'/docs/JS/数据类型'
+              title: '数据类型',
+              path: '/docs/JS/数据类型'
             },
             {
-              title:'ES6',
-              path:'/docs/JS/ES6'
+              title: 'ES6',
+              path: '/docs/JS/ES6'
             },
           ]
         }
       ],
-      
+
     }
   },
 };
