@@ -16,8 +16,8 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: "碎碎念", link: "/docs/life/" },
       { text: "JS基础", link: "/docs/JS/" },
-      { text: "前端进阶", link: "/docs/jinjie/" },
-      // { text: "LeeCode", link: "/leeCode/" },
+      { text: "前端工程化", link: "/docs/jinjie/" },
+      { text: "手写代码", link: "/docs/shoucuo/" },
       // { text: "专栏", link: "/column/" },
       // { text: "时光轴", link: "/docs/timeaxle/" },
     ],
@@ -60,23 +60,19 @@ module.exports = {
       ],
       '/docs/jinjie/': [
         {
-          title: '前端进阶知识',
+          title: '前端工程化',
           collapsable: false,
           children: [
             {
               title: 'PMP',
               path: '/docs/jinjie/PMP'
             },
-            // {
-            //   title:'3-03',
-            //   path:'/docs/jinjie/3-03'
-            // },
           ]
         }
       ],
       '/docs/JS/': [
         {
-          title: '扎实的JS基础是每个前端吃饭的东西',
+          title: 'JS八股',
           collapsable: false,
           children: [
             {
@@ -86,6 +82,26 @@ module.exports = {
             {
               title: 'ES6',
               path: '/docs/JS/ES6'
+            },
+          ]
+        }
+      ],
+      '/docs/shoucuo/': [
+        {
+          title: '手写代码',
+          collapsable: false,
+          children: [
+            {
+              title: 'intance of',
+              path: '/docs/shoucuo/intance'
+            },
+            {
+              title: '是不是空对象',
+              path: '/docs/shoucuo/isObj'
+            },
+            {
+              title: '手写callapplybind',
+              path: '/docs/shoucuo/call'
             },
           ]
         }

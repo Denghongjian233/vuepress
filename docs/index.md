@@ -5,12 +5,13 @@ actionText: 开始阅读
 actionLink: /docs/life/
 features:
   - title: 每日工作记录
-    details: 每天工作这么辛苦如果什么都不记、那就太可惜了
-  - title: JS
-    details: 吃饭的东西、每天都要背八股
-  - title: 前端进阶
-    details: 计算机网络、数据结构与算法、前端工程化、性能...。
-
+    details: 写点日记看看吧
+  - title: JS八股
+    details: 不背真不行
+  - title: 前端工程化
+    details: 能不能当架构师就看你了
+  - title: 手写代码
+    details: 进大厂的关键
 ---
 
 ::: slot heroText
