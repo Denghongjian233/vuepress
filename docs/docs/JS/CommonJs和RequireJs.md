@@ -1,0 +1,3 @@
+commonjs是通过module.exports导出模块,用require引入一个模块，原理：闭包
+
+requirejs是通过define定义导出模块，用require引入模块。

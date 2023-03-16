@@ -63,6 +63,14 @@ module.exports = {
               title: '3-14',
               path: '/docs/life/3-14'
             },
+            {
+              title: '3-15',
+              path: '/docs/life/3-15'
+            },
+            {
+              title: '3-16',
+              path: '/docs/life/3-16'
+            },
           ]
         }
       ],
@@ -90,6 +98,90 @@ module.exports = {
             {
               title: 'ES6',
               path: '/docs/JS/ES6'
+            },
+            {
+              title: '闭包',
+              path: '/docs/JS/闭包'
+            },
+            {
+              title: '对象方法',
+              path: '/docs/JS/对象方法'
+            },
+            {
+              title: '防抖节流',
+              path: '/docs/JS/防抖节流'
+            },
+            {
+              title: '服务端渲染',
+              path: '/docs/JS/服务端渲染'
+            },
+            {
+              title: '宏任务与微任务',
+              path: '/docs/JS/宏任务与微任务'
+            },
+            {
+              title: '箭头函数',
+              path: '/docs/JS/箭头函数'
+            },
+            {
+              title: '跨域',
+              path: '/docs/JS/跨域'
+            },
+            {
+              title: '面向对象',
+              path: '/docs/JS/面向对象'
+            },
+            {
+              title: '设计者模式',
+              path: '/docs/JS/设计者模式'
+            },
+            {
+              title: '十万数据',
+              path: '/docs/JS/十万数据'
+            },
+            {
+              title: '数组方法',
+              path: '/docs/JS/数组方法'
+            },
+            {
+              title: '图片懒加载',
+              path: '/docs/JS/图片懒加载'
+            },
+            {
+              title: '移动端300ms',
+              path: '/docs/JS/移动端300ms'
+            },
+            {
+              title: '异步解决',
+              path: '/docs/JS/异步解决'
+            },
+            {
+              title: '原型链',
+              path: '/docs/JS/原型链'
+            },
+            {
+              title: '作用域链',
+              path: '/docs/JS/作用域链'
+            },
+            {
+              title: 'CommonJs和RequireJs',
+              path: '/docs/JS/CommonJs和RequireJs'
+            },
+            {
+              title: 'cookie',
+              path: '/docs/JS/cookie'
+            },
+            {
+              title: 'proxy',
+              path: '/docs/JS/proxy'
+            },
+            {
+              title: 'this指向',
+              path: '/docs/JS/this指向'
+            },
+            {
+              title: 'websocket',
+              path: '/docs/JS/websocket'
             },
           ]
         }
