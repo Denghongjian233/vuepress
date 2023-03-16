@@ -16,9 +16,9 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: "碎碎念", link: "/docs/life/" },
       { text: "JS基础", link: "/docs/JS/" },
+      { text: "框架", link: "/docs/kuangjia/" },
       { text: "前端工程化", link: "/docs/jinjie/" },
       { text: "手写代码", link: "/docs/shoucuo/" },
-      // { text: "专栏", link: "/column/" },
       // { text: "时光轴", link: "/docs/timeaxle/" },
     ],
     sidebar: {
@@ -206,7 +206,27 @@ module.exports = {
           ]
         }
       ],
-
+      '/docs/kuangjia/': [
+        {
+          title: '手写代码',
+          collapsable: false,
+          children: [
+            {
+              title: '基础',
+              path: '/docs/kuangjia/jichu'
+            },
+            {
+              title: '组件通信',
+              path: '/docs/kuangjia/组件通信'
+            },
+            {
+              title: 'vue3与虚拟dom',
+              path: '/docs/kuangjia/vue3与虚拟dom'
+            },
+           
+          ]
+        }
+      ],
     }
   },
 };
