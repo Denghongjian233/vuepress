@@ -19,6 +19,7 @@ module.exports = {
       { text: "框架", link: "/docs/kuangjia/" },
       { text: "前端工程化", link: "/docs/jinjie/" },
       { text: "手写代码", link: "/docs/shoucuo/" },
+      { text: "计算机网络", link: "/docs/interweb/" },
       // { text: "时光轴", link: "/docs/timeaxle/" },
     ],
     sidebar: {
@@ -224,6 +225,21 @@ module.exports = {
               path: '/docs/kuangjia/vue3与虚拟dom'
             },
            
+          ]
+        }
+      ],
+      '/docs/interweb/': [
+        {
+          title: '计算机原理',
+          children: [
+            {
+              title: '浏览器',
+              path: '/docs/interweb/浏览器'
+            },
+            {
+              title: 'http',
+              path: '/docs/interweb/http'
+            },
           ]
         }
       ],
