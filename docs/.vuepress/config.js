@@ -72,6 +72,14 @@ module.exports = {
               title: '3-16',
               path: '/docs/life/3-16'
             },
+            {
+              title: '3-20',
+              path: '/docs/life/3-20'
+            },
+            {
+              title: '3-21',
+              path: '/docs/life/3-21'
+            },
           ]
         }
       ],
@@ -83,6 +91,18 @@ module.exports = {
             {
               title: 'PMP',
               path: '/docs/jinjie/PMP'
+            },
+            {
+              title: '数据结构',
+              path: '/docs/jinjie/数据结构'
+            },
+            {
+              title: '架构师',
+              path: '/docs/jinjie/架构师'
+            },
+            {
+              title: '算法',
+              path: '/docs/jinjie/算法'
             },
           ]
         }
