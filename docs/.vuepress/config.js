@@ -20,7 +20,6 @@ module.exports = {
       { text: "前端工程化", link: "/docs/jinjie/" },
       { text: "手写代码", link: "/docs/shoucuo/" },
       { text: "计算机网络", link: "/docs/interweb/" },
-      // { text: "时光轴", link: "/docs/timeaxle/" },
     ],
     sidebar: {
       '/docs/life/': [
@@ -79,6 +78,10 @@ module.exports = {
             {
               title: '3-21',
               path: '/docs/life/3-21'
+            },
+           {
+              title: '3-22',
+              path: '/docs/life/3-22'
             },
           ]
         }
