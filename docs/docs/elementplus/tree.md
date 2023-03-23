@@ -74,7 +74,50 @@ setCheckedNodes 设置目前选中的节点。
 
 setChecked 设置节点是否被选中
 
-getHalfCheckedNodes 节点可用被选中。
+getHalfCheckedNodes 返回当前半选中的节点组成数组
+
+getHalfCheckedKeys 半选key组成的数组
+
+getCurrentKey 返回当前被选中节点的数组
+
+getCurrentNode
+
+setCurrentKey 设置某个节点的当前选中状态，node-key属性
+
+setCurrentNode 设置节点选中状态
+
+getNode 根据data或者key拿到Tree组件中的node
+
+remove 删除tree中的一个节点
+
+append 为Tree追加一个子节点
+
+insertBefore 在Tree中给定节点前插入一个节点
+
+insertAfter 在Tree中给定节点后
+
+### 事件
+
+node-click
+
+node-contextmenu
+
+check-change 
+
+check 
+
+current-change 
+
+node-expand
+
+node-colllapse 
+
+node-drag-start
+
+node-drag-enter
+
+node-drag-leave 
+
 
 
 

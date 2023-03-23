@@ -13,13 +13,13 @@ module.exports = {
   themeConfig: {
     displayAllHeaders: true, // 默认值：false
     nav: [
-      { text: "首页", link: "/" },
       { text: "碎碎念", link: "/docs/life/" },
+      { text: "计算机网络", link: "/docs/interweb/" },
       { text: "JS基础", link: "/docs/JS/" },
       { text: "框架", link: "/docs/kuangjia/" },
-      { text: "前端工程化", link: "/docs/jinjie/" },
+      { text: "elementplus", link: "/docs/elementplus/" },
+      { text: "进击的前端", link: "/docs/jinjie/" },
       { text: "手写代码", link: "/docs/shoucuo/" },
-      { text: "计算机网络", link: "/docs/interweb/" },
     ],
     sidebar: {
       '/docs/life/': [
@@ -79,16 +79,20 @@ module.exports = {
               title: '3-21',
               path: '/docs/life/3-21'
             },
-           {
+            {
               title: '3-22',
               path: '/docs/life/3-22'
+            },
+            {
+              title: '3-23',
+              path: '/docs/life/3-23'
             },
           ]
         }
       ],
       '/docs/jinjie/': [
         {
-          title: '前端工程化',
+          title: '进击的前端',
           collapsable: false,
           children: [
             {
@@ -106,6 +110,30 @@ module.exports = {
             {
               title: '算法',
               path: '/docs/jinjie/算法'
+            },
+            {
+              title: 'SQL',
+              path: '/docs/jinjie/SQL'
+            },
+            {
+              title: 'docker',
+              path: '/docs/jinjie/docker'
+            },
+            {
+              title: '区块链',
+              path: '/docs/jinjie/区块链'
+            },
+          ]
+        }
+      ],
+      '/docs/elementplus/': [
+        {
+          title: 'elementplus',
+          collapsable: false,
+          children: [
+            {
+              title: 'tree',
+              path: '/docs/elementplus/tree'
             },
           ]
         }
@@ -247,7 +275,7 @@ module.exports = {
               title: 'vue3与虚拟dom',
               path: '/docs/kuangjia/vue3与虚拟dom'
             },
-           
+
           ]
         }
       ],
