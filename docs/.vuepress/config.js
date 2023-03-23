@@ -24,7 +24,7 @@ module.exports = {
     sidebar: {
       '/docs/life/': [
         {
-          title: '日志',
+          // title: '日志',
           collapsable: false,
           children: [
             {
