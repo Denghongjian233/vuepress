@@ -20,6 +20,8 @@ module.exports = {
       { text: "elementplus", link: "/docs/elementplus/" },
       { text: "进击的前端", link: "/docs/jinjie/" },
       { text: "手写代码", link: "/docs/shoucuo/" },
+      { text: "TS", link: "/docs/ts/" },
+      { text: "性能优化", link: "/docs/性能优化/" },
     ],
     sidebar: {
       '/docs/life/': [
@@ -282,6 +284,7 @@ module.exports = {
       '/docs/interweb/': [
         {
           title: '计算机原理',
+          collapsable: false,
           children: [
             {
               title: '浏览器',
@@ -294,6 +297,35 @@ module.exports = {
           ]
         }
       ],
+      '/docs/ts/': [
+        {
+          title: 'ts',
+          collapsable: false,
+          children: [
+            {
+              title: '数据类型',
+              path: '/docs/ts/数据类型'
+            },
+            {
+              title: '枚举类型',
+              path: '/docs/ts/枚举类型'
+            },
+          ]
+        }
+      ],
+      '/docs/性能优化/': [
+        {
+          title: '性能优化',
+          collapsable: false,
+          children: [
+            {
+              title: '数据类型',
+              path: '/docs/性能优化/数据类型'
+            },
+          ]
+        }
+      ],
+      
     }
   },
 };
