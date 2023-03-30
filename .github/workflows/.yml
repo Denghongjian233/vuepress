@@ -10,7 +10,7 @@ jobs:
     - name: shibai
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: Denghongjian233/vuepress
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
