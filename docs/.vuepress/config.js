@@ -100,6 +100,14 @@ module.exports = {
             {
               title: '3-29',
               path: '/docs/life/3-29'
+            }, 
+            {
+              title: '3-30',
+              path: '/docs/life/3-30'
+            },
+            {
+              title: '3-31',
+              path: '/docs/life/3-31'
             },
           ]
         }
