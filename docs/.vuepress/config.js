@@ -339,8 +339,8 @@ module.exports = {
           collapsable: false,
           children: [
             {
-              title: '数据类型',
-              path: '/docs/性能优化/数据类型'
+              title: 'CDN',
+              path: '/docs/性能优化/CDN'
             },
           ]
         }
