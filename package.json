@@ -15,6 +15,6 @@
     "build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress-deploy": "^0.0.1"
+    "vuepress-deploy": "^0.0.1" 
   }
 }

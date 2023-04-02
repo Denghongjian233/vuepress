@@ -8,7 +8,6 @@ module.exports = {
       },
     },
   },
-  base: "/vuepress/",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   themeConfig: {
     displayAllHeaders: true, // 默认值：false
@@ -17,7 +16,7 @@ module.exports = {
       { text: "计算机网络", link: "/docs/interweb/" },
       { text: "JS基础", link: "/docs/JS/" },
       { text: "框架", link: "/docs/kuangjia/" },
-      { text: "elementplus", link: "/docs/elementplus/" },
+      { text: "h5cs3", link: "/docs/h5cs3/" },
       { text: "进击的前端", link: "/docs/jinjie/" },
       { text: "手写代码", link: "/docs/shoucuo/" },
       { text: "TS", link: "/docs/ts/" },
@@ -336,6 +335,18 @@ module.exports = {
       '/docs/性能优化/': [
         {
           title: '性能优化',
+          collapsable: false,
+          children: [
+            {
+              title: 'CDN',
+              path: '/docs/性能优化/CDN'
+            },
+          ]
+        }
+      ],
+      '/docs/h5cs3/': [
+        {
+          title: 'h5cs3',
           collapsable: false,
           children: [
             {

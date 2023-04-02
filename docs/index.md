@@ -10,8 +10,6 @@ features:
     details: 不背真不行
   - title: 前端工程化
     details: 能不能当架构师就看你了
-  - title: 手写代码
-    details: 进大厂的关键
 ---
 
 ::: slot heroText
